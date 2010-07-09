@@ -1,6 +1,6 @@
 Manifest.txt
 Rakefile
-README.md
+README.txt
 LICENSE.txt
 lib/active_record
 lib/active_record/connection_adapters
