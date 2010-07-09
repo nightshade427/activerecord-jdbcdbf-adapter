@@ -1,6 +1,6 @@
 = activerecord-jdbcdbf-adapter
 
-* GitHub URL goes here
+* http://github.com/nightshade427/activerecord-jdbcdbf-adapter
 
 == DESCRIPTION:
 

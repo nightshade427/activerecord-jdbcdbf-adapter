@@ -12,7 +12,7 @@ begin
   hoe = Hoe.spec("activerecord-jdbcdbf-adapter") do |p|
     p.version = "0.9.7"
     p.spec_extras[:platform] = Gem::Platform.new("java")
-    p.url = "GitHub URL goes here"
+    p.url = "http://github.com/nightshade427/activerecord-jdbcdbf-adapter"
     p.author = "Nick Ricketts"
     p.email = "nightshade427@gmail.com"
     p.summary = "DBF JDBC adapter for JRuby on Rails."
