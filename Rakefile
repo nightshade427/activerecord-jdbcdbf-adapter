@@ -17,8 +17,7 @@ begin
     p.email = "nightshade427@gmail.com"
     p.summary = "DBF JDBC adapter for JRuby on Rails."
     p.description = "Install this gem to use DBF with JRuby on Rails."
-    p.extra_deps += [
-      ['activerecord-jdbc-adapter', "= 0.9.7"]
+    p.extra_deps += [['activerecord-jdbc-adapter', "= 0.9.7"]]
   end
   task :gemspec do
     File.open("#{hoe.name}.gemspec", "w") {|f| f << hoe.spec.to_ruby }
