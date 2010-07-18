@@ -10,7 +10,7 @@ begin
   require 'hoe'
   Hoe.plugin :gemcutter
   hoe = Hoe.spec("activerecord-jdbcdbf-adapter") do |p|
-    p.version = "0.9.7.1"
+    p.version = "0.9.7.2"
     p.spec_extras[:platform] = Gem::Platform.new("java")
     p.url = "http://github.com/nightshade427/activerecord-jdbcdbf-adapter"
     p.author = "Nick Ricketts"
