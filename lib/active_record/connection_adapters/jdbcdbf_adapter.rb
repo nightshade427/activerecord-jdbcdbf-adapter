@@ -39,8 +39,8 @@ module JdbcSpec
       rows = super sql, name      
       downcase_rows rows
     end
-    def quoted_true; 'false'; end
-    def quoted_false; 'true'; end
+    def quoted_true; 'true'; end
+    def quoted_false; 'false'; end
     def supports_migrations?; false; end
     def quoted_date(value); "#{value.strftime("%Y-%m-%d")}"; end
     private
